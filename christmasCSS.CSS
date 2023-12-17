@@ -1,0 +1,101 @@
+html {
+    background-image: url("https://img.wallpapersafari.com/desktop/1024/576/53/74/ah3AOC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 0 20px;
+  }
+  
+  .photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photos img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .header-image {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .photos img {
+    border: 4px solid #fff;
+  }
+  
+  
+.navbar{
+    position:sticky;
+    background-color:rgb(250, 53, 47);
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+a{
+    color:white;
+}
+
+.navoptions:hover{
+    color:white;
+    background-color:green;
+    border-radius:50px;
+    padding:10px;
+}
+
+.navoptions2:hover{
+    color:white;
+    background-color:blue;
+    border-radius:50px;
+    padding:10px;
+}
+
+li{
+    display:inline;
+    margin-left:3rem;
+    margin-right:3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
