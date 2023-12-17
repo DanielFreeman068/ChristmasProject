@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Christmas Family Photos</title>
   <link rel="stylesheet" href="christmasCSS.CSS">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
   <nav class="navbar">   
@@ -14,6 +15,24 @@
         <li><a class="navoptions" href="./christmasform.html">WishList Page</a></li>
     </ul>
 </nav>
+<div class="container">
+    <h1>Christmas Wish List</h1>
+    <form onsubmit="return confirm('Your Wishlist has been recorded!')" method="post">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="gift-ideas">Gift Ideas:</label>
+        <textarea id="gift-ideas" name="gift-ideas" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
   <footer>
     <p>&copy; 2023 Christmas Family Photos</p>
   </footer>
