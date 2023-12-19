@@ -17,7 +17,7 @@
 </nav>
 <div class="container">
     <h1>Christmas Wish List</h1>
-    <form onsubmit="return confirm('Your Wishlist has been recorded!')" method="post">
+    <form action="http://localhost:5000/submit-form" method="post" onsubmit="return confirm('Your Wishlist has been recorded!')">
       <div class="form-group">
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required>
